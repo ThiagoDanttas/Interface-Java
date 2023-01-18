@@ -52,13 +52,4 @@ public class CarRental  {
         this.invoice = invoice;
     }
 
-    @Override
-    public String toString() {
-        return "CarRental{" +
-                "start=" + start +
-                ", finish=" + finish +
-                ", vehicle=" + vehicle.getModel() +
-                ", invoice=" + invoice +
-                '}';
-    }
 }
